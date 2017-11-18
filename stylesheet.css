@@ -1,3 +1,20 @@
+h1 {
+	font-size: 30px;
+	text-align: center;
+	
+	
+}
+img {
+	width: 10%;
+    padding: 40%;
+	height: auto;
+	border-radius: 50%;
+	width:400px;
+	height:400px;
+	margin:auto;
+	
+}
+
 ul {
     list-style-type: none;
     margin: 0;
