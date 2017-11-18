@@ -1,7 +1,14 @@
 h1 {
 	font-size: 30px;
 	text-align: center;	
-}
+   }
+
+html {
+	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)
+    ), url("NightLondonBackground.jpg") no-repeat center fixed;
+	background-size: cover;
+	}
+	
 img {
 	/* padding: 40%; 
 	border-radius: 50%;
@@ -10,39 +17,53 @@ img {
 	margin: auto; */
 	display: block;
 	margin: auto;
-	width: 40%;
+	width: 100%;
 	border-radius: 50%;
-	height: 40%;
-	width:400px;
-	height:400px;
-}
+	height: 60%;
+	width:250px;
+	height:250px;
+	}
 
 h2 {
 	font-size: 20px;
 	text-align: centre;	
 	
-}
+	}
 
 ul {
+	/* navigation start */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}
+	position: fixed;
+    top: 0;
+    width: auto;
+	
+	}
 
 li {
     float: left;
-}
+	border-right: 1px solid #bbb;
+	}
 
 li a {
+	/* length of button on navigation */
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	width:auto;
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: blue;
+}
+
+.active {
+	/* home */
+    background-color: black;
+	/* navigation end */
 }
