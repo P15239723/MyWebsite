@@ -4,11 +4,12 @@
 	<title>Neil's CV</title>
 	<link href="stylesheet.css" rel="stylesheet" type="text/css" />
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Baloo" rel="stylesheet">
-
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://use.fontawesome.com/963655bdfb.js"></script>
 </head>
 
 <body>
+
 	<!-- sidenav start -->
 	<div id="mySidenav" class="sidenav">
 		<a href="#" id="home">Home</a>
@@ -24,17 +25,26 @@
 	<h1>
 		Welcome to Neil Patel's Online CV
 	</h1>
-	
-	<img src="FileProfilePicture.jpeg" alt="Profile Picture">
-	
-	<div id="skill">
+	<!-- profile card start -->
+	<div class="card">
+		<img src="FileProfilePicture.jpeg" alt="Neil" style="width:100%">
+		<h1>Neil Patel</h1>
+		<p class="title">Student</p>		
+		<p>DeMontfort University</p>
+		<div style="margin: 24px 0;"> 			
+		</div>
+		<p><button><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></button></p>
+	</div>
+	<!-- profile card end -->
+<main>	
+	<div id="myskill"" class="skill">
 		<h2>
 			Skills
 		</h2>
 		<p>
 			•Bilingual: English and Gujarati
 		</p>
-		<p id="skill">
+		<p>
 			•IT skills: PowerPoint, Word and Excel
 		</p>
 		<p>
@@ -51,7 +61,7 @@
 		</p>
 	</div>
 	
-	<div id="contact">
+	<div id="mycontact" class="contact">
 		<h3>
 			Contact me
 		</h3>
@@ -65,9 +75,25 @@
 			University Email: P15239723@my365.dmu.ac.uk
 		</p>
 	</div>
+</main>	
+	<div style="padding:250px;margin-top:30px;height:1500px;">
 	
-	
-	<!-- <!-- Skill start --> -->
+	<div id="aboutme" class="w3-container">
+		<h4>
+			<center>About Me</center>
+		</h4>
+		<center>	
+			<p>
+				A proactive, dedicated and self-motivated student that is currently in 2nd year –
+				studying Information and Communication Technology. I have brilliant skills such as preparation and team work, 
+				which was gained from 1st year of university. As a hard working student, I want to gain further knowledge and
+				experience in the Technology field.
+				
+			</p> 
+		</center>
+			
+	</div>
+	<!-- <!-- Skill start -->
 	<!-- <div> -->
 		<!-- <h3>My Skills</h3> -->
 
@@ -91,7 +117,7 @@
 			<!-- <div class="skills php">60%</div> -->
 		<!-- </div>	 -->
 	<!-- </div> -->
-<!-- <!-- Skill end --> -->
+<!-- <!-- Skill end -->
 
 <!-- scroll up button start -->
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>

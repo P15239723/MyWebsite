@@ -6,31 +6,85 @@ h1 {
 }
 h2 {
 	font-size: 20px;
-	text-align: left;
 	font-family: 'Baloo', cursive;
-	color: white;
-	padding-left: 70px;
 }
 h3 {
 	font-size: 20px;
-	text-align: right;
 	font-family: 'Baloo', cursive;
-	color: white;
-	padding-right: 70px;
+}
+h4{
+	font-size: 20px;
+	font-family: 'Baloo', cursive;
 }
 p {
 	font-size: 15px;
-	text-align: left;
 	font-family: 'Baloo', cursive;
 	color: white;
 } 
 
-#skill {
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+
+#myskill {
+	float: left;
+	width: auto;
 	text-align: left;
-	
+	color: white;
+	padding-left: 10px;
 }	
-#contact {
+#mycontact {
+	float: right;
+	width: auto;
 	text-align: right;
+	color: white;
+	padding-right: 10px;
+}
+
+#aboutme {
+	float: right;
+	width: auto;
+	text-align: centre;
+	color: white;
+	padding-right: 10px;
+}
+
+main {
+    max-width: 100%;
 	
 }
 
@@ -40,7 +94,8 @@ html {
 	background-size: cover;
 	}
 	
-img {
+	
+#profilepic {
 	display: block;
 	margin: auto;
 	width: 100%;
@@ -48,21 +103,23 @@ img {
 	height: 60%;
 	width:250px;
 	height:250px;
-	}
+}	
+	
+	
 /* scroll up button start */
 #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 10px;
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: red;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 10px;
 }
 
 #myBtn:hover {
@@ -84,6 +141,7 @@ img {
     font-size: 14px;
     color: white;
     border-radius: 0 5px 5px 0;
+	position: fixed;
 }
 
 #mySidenav a:hover {
@@ -111,25 +169,4 @@ img {
 }
 /* sidenav end */
 	
-/* /* Skill start */ */
-/* * {box-sizing: border-box} */
-
-/* .container { */
-	/* width: 40%; */
-	/* background-color: #ddd; */
-	/* border-radius: 5px; */
-/* } */
-
-/* .skills { */
-	/* text-align: right; */
-	/* padding-right: 20px; */
-	/* line-height: 25px; */
-	/* color: white; */
-/* } */
-
-/* .html {width: 90%; background-color: #4CAF50;} */
-/* .css {width: 80%; background-color: #2196F3;} */
-/* .js {width: 65%; background-color: #f44336;} */
-/* .php {width: 60%; background-color: #808080;} */
-/* /* Skill end */ */
 
