@@ -1,27 +1,72 @@
-h1 {
-	font-size: 30px;
+#welcome {
+	font-size: 15px;
 	text-align: center;
 	font-family: 'Baloo', cursive;
 	color: white;
 }
-h2 {
+
+#myskill {
+	float: left;
+	width: auto;
+	text-align: left;
+	color: white;
+	padding-left: 10px;
+	font-size: 20px;
+	font-family: 'Baloo', cursive;	
+}	
+
+#mycontact {
+	float: right;
+	width: auto;
+	text-align: right;
+	color: white;
+	padding-right: 10px;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
 }
-h3 {
+
+#aboutme {
+	float: center;
+	width: auto;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	font-size: 20px;
+	font-family: 'Baloo', cursive;
+	padding-top: 70px;
+}
+
+#work {
+	padding-top: 10px;
+	text-align: center;
+	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
 }
-h4{
-	font-size: 20px;
-	font-family: 'Baloo', cursive;
-}
-p {
+
+#skillinfo {
 	font-size: 15px;
 	font-family: 'Baloo', cursive;
 	color: white;
 } 
+#contactinfo {
+	font-size: 15px;
+	font-family: 'Baloo', cursive;
+	color: white;
+}
+#aboutinfo {
+	font-size: 15px;
+	font-family: 'Baloo', cursive;
+	color: white;
+}
 
+#workinfo {
+	font-size: 15px;
+	font-family: 'Baloo', cursive;
+	color: white;
+}
+
+/* profile card start */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   max-width: 300px;
@@ -58,30 +103,7 @@ button:hover, a:hover {
   opacity: 0.7;
 }
 
-
-
-#myskill {
-	float: left;
-	width: auto;
-	text-align: left;
-	color: white;
-	padding-left: 10px;
-}	
-#mycontact {
-	float: right;
-	width: auto;
-	text-align: right;
-	color: white;
-	padding-right: 10px;
-}
-
-#aboutme {
-	float: right;
-	width: auto;
-	text-align: centre;
-	color: white;
-	padding-right: 10px;
-}
+/* profile card end */
 
 main {
     max-width: 100%;
@@ -93,7 +115,6 @@ html {
     ), url("NightLondonBackground.jpg") no-repeat center fixed;
 	background-size: cover;
 	}
-	
 	
 #profilepic {
 	display: block;
@@ -120,12 +141,12 @@ html {
 	cursor: pointer;
 	padding: 15px;
 	border-radius: 10px;
+	width: auto;
 }
 
 #myBtn:hover {
   background-color: #555;
-}
-	
+}	
 /* scroll up button end	 */
 	
 

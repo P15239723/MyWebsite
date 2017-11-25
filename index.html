@@ -6,6 +6,8 @@
 	<link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One|Baloo" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<script src="https://use.fontawesome.com/963655bdfb.js"></script>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
 <body>
@@ -22,13 +24,15 @@
 	
 	<div style="padding:20px;margin-top:30px;height:1500px;">	
 	
-	<h1>
-		Welcome to Neil Patel's Online CV
-	</h1>
+	<div id="welcome">
+		<h1>
+			Welcome to Neil Patel's Online CV
+		</h1>
+	</div>	
 	<!-- profile card start -->
 	<div class="card">
 		<img src="FileProfilePicture.jpeg" alt="Neil" style="width:100%">
-		<h1>Neil Patel</h1>
+		<h2>Neil Patel</h2>
 		<p class="title">Student</p>		
 		<p>DeMontfort University</p>
 		<div style="margin: 24px 0;"> 			
@@ -37,41 +41,41 @@
 	</div>
 	<!-- profile card end -->
 <main>	
-	<div id="myskill"" class="skill">
-		<h2>
+	<div id="myskill" class="skill">
+		<h3>
 			Skills
-		</h2>
-		<p>
+		</h3>
+		<p id="skillinfo">
 			•Bilingual: English and Gujarati
 		</p>
-		<p>
+		<p id="skillinfo">
 			•IT skills: PowerPoint, Word and Excel
 		</p>
-		<p>
+		<p id="skillinfo">
 			•Time management
 		</p>
-		<p>
+		<p id="skillinfo">
 			•Full UK manual car licence 
 		</p>
-		<p>
+		<p id="skillinfo">
 			•Good verbal communication
 		</p>
-		<p>
+		<p id="skillinfo">
 			•Good level of numeracy
 		</p>
 	</div>
 	
 	<div id="mycontact" class="contact">
-		<h3>
+		<h4>
 			Contact me
-		</h3>
-		<p>
+		</h4>
+		<p id="contactinfo">
 			Call: 07939870624
 		</p>
-		<p>
+		<p id="contactinfo">
 			Email: neil_.06@hotmail.co.uk
 		</p>
-		<p>
+		<p id="contactinfo">
 			University Email: P15239723@my365.dmu.ac.uk
 		</p>
 	</div>
@@ -79,49 +83,48 @@
 	<div style="padding:250px;margin-top:30px;height:1500px;">
 	
 	<div id="aboutme" class="w3-container">
-		<h4>
+		<h5>
 			<center>About Me</center>
-		</h4>
+		</h5>
 		<center>	
-			<p>
+			<p id="aboutinfo">
 				A proactive, dedicated and self-motivated student that is currently in 2nd year –
 				studying Information and Communication Technology. I have brilliant skills such as preparation and team work, 
 				which was gained from 1st year of university. As a hard working student, I want to gain further knowledge and
-				experience in the Technology field.
-				
+				experience in the Technology field.				
 			</p> 
-		</center>
-			
+		</center>			
 	</div>
-	<!-- <!-- Skill start -->
-	<!-- <div> -->
-		<!-- <h3>My Skills</h3> -->
-
-		<!-- <p>HTML</p> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="skills html">90%</div> -->
-		<!-- </div> -->
-
-		<!-- <p>CSS</p> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="skills css">80%</div> -->
-		<!-- </div> -->
-
-		<!-- <p>JavaScript</p> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="skills js">65%</div> -->
-		<!-- </div> -->
-
-		<!-- <p>PHP</p> -->
-		<!-- <div class="container"> -->
-			<!-- <div class="skills php">60%</div> -->
-		<!-- </div>	 -->
-	<!-- </div> -->
-<!-- <!-- Skill end -->
+	
+	<div id="work" class="w3-container w3-card w3-black">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+        <div class="w3-container">
+			<h6 class="w3-opacity"><p id="workinfo">H & M</p></h6>
+			<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2016</h6>
+			<p id="workinfo">At H&M my prime responsibility was to handle delivery and stock and occasionally assist my colleagues on the shop floor, especially during busy hours. As part of my role, my duties will include assisting customers, lending them a hand and advising them on products. Working in retail has helped me further improve my communication skills and the same time it has helped me develop my confidence in approaching customers.</p>
+			<hr>
+        </div>
+        <div class="w3-container">
+			<h5 class="w3-opacity"><p id="workinfo">Day Lewis Warehouse</p></h5>
+			<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016</h6>
+			<p id="workinfo">Working for Day Lewis was great as I met people from different countries, this meant that some of the employees had accents. This helped me because it helped me improve my listening skills, as some of the employees struggled to pronounce some words.</p>
+			<hr>
+        </div>
+    </div>
+	
+	<div id="work" class="w3-container w3-card w3-black w3-margin-bottom">
+        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h2>
+        <div class="w3-container">
+          <h5 class="w3-opacity"><p id="workinfo">Community Pharmacy-Day Lewis Pharmacy</p></h5>
+          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2012</h6>
+          <p id="workinfo">I worked in a community pharmacy for 2 weeks and it was great working with other members, it allowed me to gain team-working skills and further improve my communication skills. I checked expiry dates of medication, directed customers to products and assisted in advising them on selection of products. This improved my interaction skills, as it required me to communicate to people of different age groups.</p>
+          <hr>
+        </div>
+	</div>	
+	
 
 <!-- scroll up button start -->
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
 
 	<script>
 	// When the user scrolls down 20px from the top of the document, show the button
