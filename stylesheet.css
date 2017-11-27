@@ -27,10 +27,10 @@
 
 #aboutme {
 	float: center;
-	width: auto;
+	width: 50%;
 	text-align: center;
 	color: white;
-	padding: 10px;
+	padding-right: 10px;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
 	padding-top: 70px;
@@ -42,19 +42,18 @@
 	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
+	padding-left: 10px;
 }
 #hobby {
-	float: left;
+	float: center;
 	width: auto;
-	text-align: left;
+	text-align: center;
 	color: white;
-	padding-left: 10px;
+	padding: 10px;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
 	
 }
-
-
 
 #skillinfo {
 	font-size: 15px;
@@ -78,41 +77,49 @@
 	color: white;
 }
 
+#hobbyinfo {
+	font-size: 15px;
+	font-family: 'Baloo', cursive;
+	color: white;
+}
+
+
+
 /* profile card start */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+	max-width: 300px;
+	margin: auto;
+	text-align: center;
+	font-family: arial;
 }
 
 .title {
-  color: grey;
-  font-size: 18px;
+	color: grey;
+	font-size: 18px;
 }
 
 button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+	border: none;
+	outline: 0;
+	display: inline-block;
+	padding: 8px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
 }
 
 a {
-  text-decoration: none;
-  font-size: 22px;
-  color: black;
+	text-decoration: none;
+	font-size: 22px;
+	color: black;
 }
 
 button:hover, a:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 /* profile card end */
