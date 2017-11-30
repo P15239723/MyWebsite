@@ -13,7 +13,7 @@
 <body>
 
 	<!-- sidenav start -->
-	<div id="mySidenav" class="sidenav">
+	<div id="mysidenav" class="sidenav">
 		<a href="#" id="home">Home</a>
 		<a href="#" id="education">Education</a>
 		<a href="#" id="hobbies">Hobbies</a>
@@ -32,9 +32,9 @@
 	<!-- profile card start -->
 	<div class="card">
 		<img src="FileProfilePicture.jpeg" alt="Neil" style="width:100%">
-		<h2>Neil Patel</h2>
-		<p class="title">Student</p>		
-		<p>DeMontfort University</p>
+		<h2 id="profile">Neil Patel</h2>
+		<p id="profile">Student</p>		
+		<p id="profile">DeMontfort University</p>
 		<div style="margin: 24px 0;">
 		
 		</div>
@@ -48,25 +48,35 @@
 		<h2>
 			Skills
 		</h2>
-		<p id="skillinfo">
-			•Bilingual: English and Gujarati
-		</p>
-		<p id="skillinfo">
-			•IT skills: PowerPoint, Word and Excel
-		</p>
-		<p id="skillinfo">
-			•Time management
-		</p>
-		<p id="skillinfo">
-			•Full UK manual car licence 
-		</p>
-		<p id="skillinfo">
-			•Good verbal communication
-		</p>
-		<p id="skillinfo">
-			•Good level of numeracy
-		</p>
-	</div>
+		<ul id="skillinfo" class="fa-ul">
+		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Bilingual: English and Gujarati</li>
+		  <li><i class="fa-li fa fa-spinner fa-spin"></i>IT skills: PowerPoint, Word and Excel</li>
+		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Time management</li>
+		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Full UK manual car licence </li>
+		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Good verbal communication</li>
+		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Good level of numeracy</li>
+		</ul>
+	</div>	
+		
+		<!-- <p id="skillinfo"> -->
+			<!-- • Bilingual: English and Gujarati -->
+		<!-- </p> -->
+		<!-- <p id="skillinfo"> -->
+			<!-- • IT skills: PowerPoint, Word and Excel -->
+		<!-- </p> -->
+		<!-- <p id="skillinfo"> -->
+			<!-- • Time management -->
+		<!-- </p> -->
+		<!-- <p id="skillinfo"> -->
+			<!-- • Full UK manual car licence  -->
+		<!-- </p> -->
+		<!-- <p id="skillinfo"> -->
+			<!-- • Good verbal communication -->
+		<!-- </p> -->
+		<!-- <p id="skillinfo"> -->
+			<!-- • Good level of numeracy -->
+		<!-- </p> -->
+	
 	
 	<div id="mycontact" class="contact">
 		<h2>
@@ -86,32 +96,62 @@
 	
 	<div id="aboutme" class="w3-container">
 		<h2>
-			<center>About Me</center>
-		</h2>
-		<center>	
+			About Me
+		</h2>			
 			<p id="aboutinfo">
 				A proactive, dedicated and self-motivated student that is currently in 3rd year –
 				studying Information and Communication Technology. I have brilliant skills such as preparation and team work, 
 				which was gained from 1st year of university. As a hard working student, I want to gain further knowledge and
 				experience in the Technology field.				
-			</p> 
-		</center>			
+			</p> 			
 	</div>
 	<!-- education start -->
 	<div id="education" class="w3-container w3-card w3-black">
-        <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h3>
+        <h3 class="w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h3>
         <div class="w3-container">
-			<h5 class="w3-opacity"><p id="educationinfo">Archbishop of Lanfranc</p></h5>
+			<h5><p id="educationinfo">Archbishop of Lanfranc</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 – 2013</h5>
 				<p id="educationinfo">GCSEs: Spanish (C), Biology (C), Chemistry (C), Physics (C), Maths (B), English (C)</p>
 			<hr>
         </div>
-        <div class="w3-container">
-			<h5 class="w3-opacity"><p id="educationinfo">Coulsdon College</p></h5>
-			<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 – 2015</h6>
+        <div>
+			<h5><p id="educationinfo">Coulsdon College</p></h5>
+			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 – 2015</h5>
 				<p id="educationinfo">Btec: Engineering (MM), IT (D*)</p>
 			<hr>
         </div>
+			<h5 class="w3-opacity"><p id="educationinfo">DeMontfort University</p></h5>
+			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 – 2018</h5>
+				<section id="yearuni">	
+					<ul class="fa-ul">
+						<li><u>First Year 2:2</u></li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics and Business Management</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Visual Web Development</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Information Systems Development</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Devices and Networks</li>					  
+					</ul>
+				</section>
+				<section id="yearuni">
+					<ul class="fa-ul">
+						<li><u>First Year 2:2</u></li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics and Business Management</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Visual Web Development</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Information Systems Development</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Devices and Networks</li>					  
+					</ul>
+				</section>	
+				<section id="yearuni">	
+					<ul class="fa-ul">
+						<li><u>Third Year</u></li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Front-End Web Development</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Information Systems Strategy and Service</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Research Methods</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Privacy and Data Protection</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Final Year Project</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Computing Ethics</li>
+					</ul>		
+				</section>	
+				<hr>
     </div>
 	<!-- education end -->
 	
@@ -142,9 +182,9 @@
     </div>
 	<!-- work end -->
 	
-	<div id="hobby" class="imgdropdown">
-		<h2>Hobbies</h2>
-		<p>Sofia, the capital of Bulgaria, surprised me. I didn’t know what I’d find when I visited. I expected a dreary, ex-communist city but instead found a multi-cultural, fast growing, and modernizing city with a rich history, cheap and delicious food and drinks, and friendly, outgoing people. I ended up extending my stay I loved it so much. From the great (free) walking tours, historic churches, museums, and baths, to the modern cafes, nightclubs, and restaurants, Sofia is a wonderful travel (and very budget friendly) destination. It should not be missed!</p>			
+	<div id="hobby" class="info">
+		<h2>Hobbies and Interests</h2>
+		<p>Sofia, the capital of Bulgaria, surprised me. I didn’t know what I’d find when I visited. I expected a dreary, ex-communist city but instead found a multi-cultural, fast growing, and modernizing city with a rich history, cheap and delicious food and drinks, and friendly, outgoing people. From the great (free) walking tours, historic churches, museums, and baths, to the modern cafes, nightclubs, and restaurants, Sofia is a wonderful travel (and very budget friendly) destination. It should not be missed!</p>			
 	</div>	
 
 <!-- scroll up button start -->
