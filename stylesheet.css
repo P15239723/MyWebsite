@@ -22,7 +22,7 @@
 	
 }
 
-.skill :hover {
+#myskill :hover {
   background-color: #39527a;
   opacity: 0.7;
 }		
@@ -38,19 +38,19 @@
 	background: #39527a;
 }
 
-.contact :hover {
+#mycontact :hover {
   background-color: #39527a;
   opacity: 0.7;
 }		
 
 #aboutme {
 	float: center;
-	width: 50%;
+	width: auto;
 	text-align: center;
 	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
-	background: #39527a;
+	
 }
 
 
@@ -60,6 +60,10 @@
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
 	color: white;
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+	opacity: 0.7;
 }
 
 #work {
@@ -68,7 +72,11 @@
 	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
-	padding-left: 10px;
+	padding-left: 10px; 
+	margin: auto;
+    width: 80%;
+    padding: 10px;
+	opacity: 0.7;
 }
 #hobby {
 	float: center;
@@ -95,9 +103,6 @@
 	font-size: 15px;
 	font-family: 'Baloo', cursive;
 	color: white;
-	float: center;
-	text-align: center;
-	margin: auto;
 }
 
 #educationinfo {
@@ -106,17 +111,21 @@
 	color: white;
 }
 
-#yearuni {
+.year {
 	float: center;
+    width: 250px;
+    height: 275px;
+    margin: 10px;
+}
+
+#yearuni {
 	font-size: 15px;
-	width: auto;
 	text-align: left;
 	background: #39527a;
 	display: inline-block;
-	height:auto;
 }
 
-.year :hover {
+#yearuni:hover {
   background-color: #39527a;
   opacity: 0.7;
 }		
@@ -128,8 +137,7 @@
 }
 
 .slideshow {
-	display:none;
-	
+	display:block;	
 }
 
 #hobbyinfo {
@@ -266,42 +274,42 @@ html {
 
 
 /* sidenav start */
-#mysidenav a {
-    position: absolute;
-    left: -112px;
-    transition: 0.5s;
-    padding: 15px;
-    width: 100px;
-    text-decoration: none;
-    font-size: 14px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-	position: fixed;
-}
+/* #mysidenav a { */
+    /* position: absolute; */
+    /* left: -112px; */
+    /* transition: 0.5s; */
+    /* padding: 15px; */
+    /* width: 100px; */
+    /* text-decoration: none; */
+    /* font-size: 14px; */
+    /* color: white; */
+    /* border-radius: 0 5px 5px 0; */
+	/* position: fixed; */
+/* } */
 
-#mysidenav a:hover {
-    left: 0;
-}
+/* #mysidenav a:hover { */
+    /* left: 0; */
+/* } */
 
-#home {
-    top: 20px;
-    background-color: #4CAF50;
-}
+/* #home { */
+    /* top: 20px; */
+    /* background-color: #4CAF50; */
+/* } */
 
-#education {
-    top: 80px;
-    background-color: #2196F3;
-}
+/* #education { */
+    /* top: 80px; */
+    /* background-color: #2196F3; */
+/* } */
 
-#hobbies {
-    top: 140px;
-    background-color: #f44336;
-}
+/* #hobbies { */
+    /* top: 140px; */
+    /* background-color: #f44336; */
+/* } */
 
-#workexperience {
-    top: 200px;
-    background-color: #555
-}
-/* sidenav end */
+/* #workexperience { */
+    /* top: 200px; */
+    /* background-color: #555 */
+/* } */
+/* sidenav end */ 
 	
 
