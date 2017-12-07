@@ -1,3 +1,40 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#about {
+    top: 20px;
+    background-color: #4CAF50;
+}
+
+#blog {
+    top: 80px;
+    background-color: #2196F3;
+}
+
+#projects {
+    top: 140px;
+    background-color: #f44336;
+}
+
+#contact {
+    top: 200px;
+    background-color: #555;
+	padding-bottom: 20px;
+}
+
 #welcome {
 	font-size: 15px;
 	text-align: center;
@@ -12,35 +49,38 @@
 
 #myskill {
 	float: left;
-	width: auto;
+	width: 250px;
+	height: 220px;
 	text-align: left;
 	color: white;
 	padding-left: 10px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Baloo', cursive;
-	background: #39527a;
-	
+	background: rgba(96, 137, 204, 1);
+    margin: 10px;
+	padding-bottom: 20px;
 }
 
-#myskill :hover {
-  background-color: #39527a;
-  opacity: 0.7;
-}		
+	
 
 #mycontact {
 	float: right;
-	width: auto;
+	width: 250px;
+	height: 220px;
 	text-align: right;
 	color: white;
 	padding-right: 10px;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
-	background: #39527a;
+	background: rgba(96, 137, 204, 1);
+    margin: 10px;
+	padding-bottom: 20px;
+
 }
 
 #mycontact :hover {
-  background-color: #39527a;
-  opacity: 0.7;
+  background: rgba(96, 137, 204, 0.7);
+  
 }		
 
 #aboutme {
@@ -50,10 +90,14 @@
 	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
-	
+	padding-top: 5cm;
 }
 
-
+#map {
+    height: 400px;
+    width: 100%;
+}
+ 
 #education {
 	float: center;
 	text-align: center;
@@ -64,6 +108,13 @@
     width: 80%;
     padding: 10px;
 	opacity: 0.7;
+}
+
+.flex-container {
+	/* display: flex; */
+	padding-top: 0.5cm;
+	width: 100%;
+	
 }
 
 #work {
@@ -113,21 +164,20 @@
 
 .year {
 	float: center;
-    width: 250px;
-    height: 275px;
+    width: auto;
+    height: auto;
     margin: 10px;
 }
 
 #yearuni {
 	font-size: 15px;
 	text-align: left;
-	background: #39527a;
+	background: rgba(96, 137, 204, 1);
 	display: inline-block;
 }
 
 #yearuni:hover {
-  background-color: #39527a;
-  opacity: 0.7;
+	background: rgba(96, 137, 204, 0.7);
 }		
 
 #workinfo {
@@ -137,7 +187,7 @@
 }
 
 .slideshow {
-	display:block;	
+	display:block;
 }
 
 #hobbyinfo {
@@ -146,46 +196,6 @@
 	color: white;
 }
 
-/* holiday start */
-* {
-    box-sizing: border-box;
-}
-.header, .footer {
-    background-color: grey;
-    color: white;
-    padding: 15px;
-}
-.column {
-    float: left;
-    padding: 15px;
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.menu {
-    width: 25%;
-}
-.content {
-    width: 75%;
-	color: white;
-}
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.menu li {
-    padding: 8px;
-    margin-bottom: 8px;
-    background-color: #33b5e5;
-    color: #ffffff;
-}
-.menu li:hover {
-    background-color: #0099cc;
-}
-/* holiday end */
 
 
 /* profile card start */
@@ -274,42 +284,10 @@ html {
 
 
 /* sidenav start */
-/* #mysidenav a { */
-    /* position: absolute; */
-    /* left: -112px; */
-    /* transition: 0.5s; */
-    /* padding: 15px; */
-    /* width: 100px; */
-    /* text-decoration: none; */
-    /* font-size: 14px; */
-    /* color: white; */
-    /* border-radius: 0 5px 5px 0; */
-	/* position: fixed; */
-/* } */
 
-/* #mysidenav a:hover { */
-    /* left: 0; */
-/* } */
-
-/* #home { */
-    /* top: 20px; */
-    /* background-color: #4CAF50; */
-/* } */
-
-/* #education { */
-    /* top: 80px; */
-    /* background-color: #2196F3; */
-/* } */
-
-/* #hobbies { */
-    /* top: 140px; */
-    /* background-color: #f44336; */
-/* } */
-
-/* #workexperience { */
-    /* top: 200px; */
-    /* background-color: #555 */
-/* } */
 /* sidenav end */ 
 	
+@media screen and (min-width: 500px) {
+	/* override mobile styles for bigger screens */
 
+}

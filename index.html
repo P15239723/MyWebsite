@@ -11,16 +11,23 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<!-- sidenav start -->
+	<div id="mySidenav" class="sidenav">
+		<a href="#aboutme" id="about">About Me</a>
+		<a href="#" id="education">Education</a>
+		<a href="#" id="projects">Work Experience</a>
+		<a href="#" id="contact">Hobbies</a>
+	</div>
+
+	<div style="margin-left:80px;">
+		<h2>Hoverable Sidenav Buttons</h2>
+		<p>Hover over the buttons in the left side navigation to open them.</p>
+	</div>
 
 <body>
 
 	<!-- sidenav start -->
-	<!-- <div id="mysidenav" class="sidenav"> -->
-		<!-- <a href="#" id="home">Home</a> -->
-		<!-- <a href="#" id="education">Education</a> -->
-		<!-- <a href="#" id="hobbies">Hobbies</a> -->
-		<!-- <a href="#" id="workexperience">Work Experience</a> -->
-	<!-- </div> -->
+	
 	<!-- sidenav end -->
 	<div style="margin-left:80px;"></div>
 	
@@ -47,40 +54,47 @@
 	<!-- profile card end -->
 <main>	
 	<!-- skills start -->
-	<div id="myskill" class="skill">
-		<h2>
-			Skills
-		</h2>
-		<ul id="skillinfo" class="fa-ul">
-		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Bilingual: English and Gujarati</li>
-		  <li><i class="fa-li fa fa-spinner fa-spin"></i>IT skills: PowerPoint, Word and Excel</li>
-		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Time management</li>
-		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Full UK manual car licence </li>
-		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Good verbal communication</li>
-		  <li><i class="fa-li fa fa-spinner fa-spin"></i>Good level of numeracy</li>
-		</ul>
-	</div>	
-		<!-- skill end -->
+			<section class="flex-container">	
+				<section id="myskill" class="skill">
+					<ul class="fa-ul">
+						<h2>
+							Skills
+						</h2>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Bilingual: English and Gujarati</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>IT skills: PowerPoint, Word and Excel</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Time management</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Full UK manual car licence </li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Good verbal communication</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Good level of numeracy</li>					  
+					</ul>
+				</section>	
+	<!-- skill end -->
 	
 	<!-- contact start -->
-	<div id="mycontact" class="contact">
-		<h2>
-			Contact me
-		</h2>
-		<p id="contactinfo">
-			Call: 07939870624
-		</p>
-		<p id="contactinfo">
-			Email: neil_.06@hotmail.co.uk
-		</p>
-		<p id="contactinfo">
-			University Email: P15239723@my365.dmu.ac.uk
-		</p>
-	</div>
+					<section id="mycontact" class="contact">
+						<ul class="fa-ul">
+							<h2>
+								Contact me
+							</h2>
+							<p id="contactinfo">
+								Call: 07939870624
+							</p>
+							<p id="contactinfo">
+								Email: neil_.06@hotmail.co.uk
+							</p>
+							<p id="contactinfo">
+								University Email: P15239723@my365.dmu.ac.uk
+							</p>
+						</ul>
+					</section>	
+			</section>	
 	<!-- contact end -->
+	
+		
 	
 </main>	
 	<!-- about me start -->
+	<br>
 	<div id="aboutme" class="about">
 		<h2>
 			About Me
@@ -93,8 +107,20 @@
 			</p> 			
 	</div>
 	<!-- about me end -->
-	
+	<section>
+		</head>
+		<body>
+			<h2>DeMontfort University</h2>
+			<div id="map"></div>
+			<script src="javascript/maps.js"></script>
+		<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASEJc5r-Is5Xz069cqhCRiteSkpRkAnzg&callback=initMap">
+		</script>
+	</section>
+		
+	<br>
 	<!-- education start -->
+
 	<div id="education" class="w3-container w3-card w3-black">
         <h3><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h3>
         <div class="w3-container">
@@ -109,8 +135,10 @@
 				<p id="educationinfo">Btec: Engineering (MM), IT (D*)</p>
 			<hr>
         </div>
-			<h5 class="w3-opacity"><p id="educationinfo">DeMontfort University</p></h5>
+		
+			<h5><p id="educationinfo">DeMontfort University</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 – 2018</h5>
+			<section class="flex-container">	
 				<section id="yearuni" class="year">	
 					<ul class="fa-ul">
 						<li><u>First Year 2:2</u></li>
@@ -122,7 +150,7 @@
 				</section>
 				<section id="yearuni" class="year">
 					<ul class="fa-ul">
-						<li><u>First Year 2:2</u></li>
+						<li><u>Second Year 2:2</u></li>
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics and Business Management</li>
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Visual Web Development</li>
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Information Systems Development</li>
@@ -140,30 +168,31 @@
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Computing Ethics</li>
 					</ul>		
 				</section>	
-				<hr>
-    </div>
+		</section>
+	</div>
 	<!-- education end -->
 	
 	<!-- work start -->
 	<div id="work" class="w3-container w3-card w3-black">
-        <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h3>
+	<hr>
+        <h3><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h3>
         <div class="w3-container">
-			<h5 class="w3-opacity"><p id="workinfo">Community Pharmacy-Day Lewis Pharmacy</p></h5>
+			<h5><p id="workinfo">Community Pharmacy-Day Lewis Pharmacy</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2012</h5>
 				<p id="workinfo">I worked in a community pharmacy for 2 weeks and it was great working with other members, it allowed me to gain team-working skills and further improve my communication skills. I checked expiry dates of medication, directed customers to products and assisted in advising them on selection of products. This improved my interaction skills, as it required me to communicate to people of different age groups.</p>
 			<hr>
         </div>
 	</div>
 	<div id="work" class="w3-container w3-card w3-black w3-margin-bottom">
-        <h3 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Employment</h3>
+        <h3><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Employment</h3>
         <div class="w3-container">
-			<h5 class="w3-opacity"><p id="workinfo">H & M</p></h5>
+			<h5><p id="workinfo">H & M</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2016</h5>
 				<p id="workinfo">At H&M my prime responsibility was to handle delivery and stock and occasionally assist my colleagues on the shop floor, especially during busy hours. As part of my role, my duties will include assisting customers, lending them a hand and advising them on products. Working in retail has helped me further improve my communication skills and the same time it has helped me develop my confidence in approaching customers.</p>
 			<hr>
         </div>
         <div class="w3-container">
-			<h5 class="w3-opacity"><p id="workinfo">Day Lewis Warehouse</p></h5>
+			<h5<p id="workinfo">Day Lewis Warehouse</p></h5>
 			<h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016</h6>
 				<p id="workinfo">Working for Day Lewis was great as I met people from different countries, this meant that some of the employees had accents. This helped me because it helped me improve my listening skills, as some of the employees struggled to pronounce some words.</p>
 			<hr>
@@ -173,43 +202,11 @@
 	
 	<!-- hobby start -->
 	<section> 
-		<div id="hobby" class="header">
+		<div id="hobby">
 			<h1>Hobbies and Interests</h1>
 		</div>
 
-		<div class="clearfix">
-		
-		<p id="demo"></p>
-			<div class="column menu">
-				<ul>
-					<li>The Flight</li>
-					<li>The City</li>
-					<li>The People</li>
-					<li>The Food</li>
-				</ul>
-			</div>
-			<div class="column content">
-				<h1>The Flight</h1>
-				<p>To get to Sofia, I flew on easyJet on the 30th June, which provides cheap but good service. Also, as the plane journey was around 3 hours, I believe it was worth paying this service.</p>
-			</div>
-			<div class="column content">
-				<h1>The City</h1>
-				<p>Bulgaria's pleasingly laid-back capital is often overlooked by visitors heading straight to the coast or the ski resorts, but they're missing something special. Sofia is no grand metropolis, but it's a largely modern, youthful city, with a scattering of onion-domed churches, Ottoman mosques and stubborn Red Army monuments that lend an eclectic, exotic feel. Recent excavation work carried out during construction of the city’s metro unveiled a treasure trove of Roman ruins from nearly 2000 years ago, when the city was called 'Serdica'. Away from the buildings and boulevards, vast parks and manicured gardens offer a welcome respite, and the ski slopes and hiking trails of mighty Mt Vitosha are just a short bus ride from the centre. Home to many of Bulgaria's finest museums, galleries, restaurants and clubs, Sofia may persuade you to stick around and explore further.</p>
-			</div>
-			<div class="column content">
-				<h1>The People</h1>
-				<p>In genral people were really nice to speak to. However, some of them struggle to speak English and often become frustrated at you as they do not know what you are saying.</p>
-			</div>
-			<div class="column content">
-				<h1>The Food</h1>
-				<p>Finding tasty food was actually a struggle as most of the food I tried was quite bland. There were some amazing restuarant with delicious food but it was a risk as the food could look tasty but may not be when you try it.</p>
-			</div>
-		</div>
-
-		<div class="footer">
-			<p>Footer Text</p>
-		</div>
-		
+			
 		
 	</section>
 	
@@ -217,51 +214,18 @@
 
 
 	
-	<div class="w3-content w3-section" style="max-width:500px">
+	<div id="slideshow" class="w3-content w3-section" style="max-width:500px">
 		<img class="slideshow" src="india.jpg" style="width:100%">
 		<img class="slideshow" src="sofia.jpg" style="width:100%">
 		<img class="slideshow" src="rome.jpg" style="width:100%">
 		<img class="slideshow" src="dubai.jpg" style="width:100%">
 	</div>
 	
-	<!-- scroll up button start -->
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	
-	<script>
-	var myIndex = 0;
-	carousel();
-
-	function carousel() {
-		var i;
-		var x = document.getElementsByClassName("slideshow");
-		for (i = 0; i < x.length; i++) {
-		   x[i].style.display = "none";  
-		}
-		myIndex++;
-		if (myIndex > x.length) {myIndex = 1}    
-		x[myIndex-1].style.display = "block";  
-		setTimeout(carousel, 2000); // Change image every 2 seconds
-	}
-	</script>
-
-	<script>
-	// When the user scrolls down 20px from the top of the document, show the button
-	window.onscroll = function() {scrollFunction()};
-
-	function scrollFunction() {
-		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-			document.getElementById("myBtn").style.display = "block";
-		} else {
-			document.getElementById("myBtn").style.display = "none";
-		}
-	}
-
-	// When the user clicks on the button, scroll to the top of the document
-	function topFunction() {
-		document.body.scrollTop = 0;
-		document.documentElement.scrollTop = 0;
-	}
-	</script>
+	<script src="javascript/slideshow.js"></script>
+		<!-- scroll up button start -->
+	<script src="javascript/scrollbutton.js"></script>
 		<!-- scroll up button end -->
 	
 </body>
