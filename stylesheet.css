@@ -1,3 +1,4 @@
+/* sidenav start */
 #mySidenav a {
     position: absolute;
     left: -80px;
@@ -17,30 +18,34 @@
 #about {
     top: 20px;
     background-color: #4CAF50;
+	
 }
 
-#blog {
+#edu {
     top: 80px;
     background-color: #2196F3;
 }
 
-#projects {
+#experience {
     top: 140px;
     background-color: #f44336;
 }
 
-#contact {
+#hobby {
     top: 200px;
     background-color: #555;
 	padding-bottom: 20px;
 }
+/* sidenav end */
 
-#welcome {
+
+h1 {
 	font-size: 15px;
 	text-align: center;
 	font-family: 'Baloo', cursive;
 	color: white;
 }
+
 
 #profile {
 	color: white;
@@ -52,35 +57,33 @@
 	width: 250px;
 	height: 220px;
 	text-align: left;
-	color: white;
 	padding-left: 10px;
 	font-size: 15px;
 	font-family: 'Baloo', cursive;
 	background: rgba(96, 137, 204, 1);
-    margin: 10px;
 	padding-bottom: 20px;
+	color: white;
 }
 
-	
+#myskill:hover {
+  background: rgba(96, 137, 204, 0.7); 
+}	
 
 #mycontact {
 	float: right;
 	width: 250px;
 	height: 220px;
 	text-align: right;
-	color: white;
 	padding-right: 10px;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
 	background: rgba(96, 137, 204, 1);
-    margin: 10px;
 	padding-bottom: 20px;
-
+	color: white;
 }
 
-#mycontact :hover {
-  background: rgba(96, 137, 204, 0.7);
-  
+#mycontact:hover {
+  background: rgba(96, 137, 204, 0.7); 
 }		
 
 #aboutme {
@@ -90,7 +93,7 @@
 	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
-	padding-top: 5cm;
+	padding-top: 6cm;
 }
 
 #map {
@@ -111,7 +114,7 @@
 }
 
 .flex-container {
-	/* display: flex; */
+	display: flex;
 	padding-top: 0.5cm;
 	width: 100%;
 	
