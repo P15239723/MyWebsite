@@ -30,7 +30,7 @@
 	<div style="padding:20px;margin-top:30px;height:1500px;">	
 	
 	<div>
-		<h1>
+		<h1  class="welcome">
 			Welcome to Neil Patel's Online CV
 		</h1>
 	</div>	
@@ -44,16 +44,19 @@
 		
 		</div>
 		<div>
-			<p><button><a href="https://www.linkedin.com/in/neil-patel-433819130/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></button></p>
+			<p><button><a href="https://www.linkedin.com/in/neil-patel-433819130/"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a> <a href="CV.docx" download><i class="fa fa-download fa-2x" aria-hidden="true"></i></a></button></p>
 		</div>
+		<!-- <div> -->
+			<!-- <p><button><a href="CV.docx" download><i class="fa fa-download fa-2x" aria-hidden="true"></i></a></button></p> -->
+		<!-- </div> -->
 	</div>
 	<!-- profile card end -->
 <main>	
 	<!-- skills start -->
 		
-		<section id="myskill" class="skill">
+		<section id="myskill">
 		<ul class="fa-ul">
-		<h2>
+		<h2 class="skill">
 			Skills
 		</h2>
 			<li id="skillinfo"><i class="fa-li fa fa-spinner fa-spin"></i>Bilingual: English and Gujarati</li>
@@ -67,9 +70,9 @@
 	<!-- skill end -->
 	
 	<!-- contact start -->
-		<section id="mycontact" class="contact">
+		<section id="mycontact">
 			<ul class="fa-ul">
-			<h2>
+			<h2 class="contact">
 				Contact me
 			</h2>
 				<p id="contactinfo">
@@ -83,16 +86,14 @@
 				</p>
 				</ul>
 		</section>	
-		
 	<!-- contact end -->
-	
-		
+	<br>
 	
 </main>	
 	<!-- about me start -->
 	<br>
-	<div id="aboutme" class="about">
-		<h2>
+	<section id="aboutme">
+		<h2 class="about">
 			About Me
 		</h2>			
 			<p id="aboutinfo">
@@ -101,12 +102,14 @@
 				which was gained from 1st year of university. As a hard working student, I want to gain further knowledge and
 				experience in the Technology field.				
 			</p> 			
-	</div>
+	</section>
 	<!-- about me end -->
+	<br>
+	
 	<section>
 		</head>
 		<body>
-			<h2>DeMontfort University</h2>
+			<h2 class="demontfort">DeMontfort University</h2>
 			<div id="map"></div>
 			<script src="javascript/maps.js"></script>
 		<script async defer
@@ -118,7 +121,7 @@
 	<!-- education start -->
 
 	<div id="education" class="w3-container w3-card w3-black">
-        <h3><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h3>
+        <h3 class="life"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Education</h3>
         <div class="w3-container">
 			<h5><p id="educationinfo">Archbishop of Lanfranc</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 – 2013</h5>
@@ -171,7 +174,7 @@
 	<!-- work start -->
 	<div id="work" class="w3-container w3-card w3-black">
 	<hr>
-        <h3><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h3>
+        <h3 class="life"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h3>
         <div class="w3-container">
 			<h5><p id="workinfo">Community Pharmacy-Day Lewis Pharmacy</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2012</h5>
@@ -180,7 +183,7 @@
         </div>
 	</div>
 	<div id="work" class="w3-container w3-card w3-black w3-margin-bottom">
-        <h3><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Employment</h3>
+        <h3 class="life"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Employment</h3>
         <div class="w3-container">
 			<h5><p id="workinfo">H & M</p></h5>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2016</h5>
@@ -198,46 +201,22 @@
 	
 	<!-- hobby start --> 
 	<div id="hobby">
-		<h1>Hobbies and Interests</h1>
+		<h1 class="hobbies">Hobbies and Interests</h1>
+		<p>Through out my life I have visited many places displayed in the slideshow.</p>
+		<p>India was an amazing place and went there for my cousins wedding. I stayed there for 3 weeks and travelled many cities. I lived with my uncles and they hired drivers so travelling was really easy. Most of the time I would just explore places with my family and tried delicious food as there would be places to eat everywhere.
 	</div>
-		<p>Through out my life I have</p>
-			
-	<div id="slideshow" class="w3-content w3-section w3-content w3-display-container" style="max-width:500px">
-		<div class="w3-display-container mySlides">
-			<img class="slideshow" src="india.jpg" style="width:100%">				
-			<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-				India
-			</div>	
-		</div>
-		<div class="w3-display-container mySlides">
-			<img class="slideshow" src="sofia.jpg" style="width:100%">			
-			<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-				Sofia
-			</div>	
-		</div>
-		<div class="w3-display-container mySlides">
-			<img class="slideshow" src="rome.jpg" style="width:100%">			
-			<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-				Rome
-			</div>	
-		</div>
-		<div class="w3-display-container mySlides">
-			<img class="slideshow" src="dubai.jpg" style="width:100%">			
-			<div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-				Rome
-			</div>	
-		</div>	
+				
+	<div id="slideshow" class="w3-content w3-section" style="max-width:500px">
+		<img class="slideshow" src="india.jpg" style="width:100%">
+		<img class="slideshow" src="sofia.jpg" style="width:100%">
+		<img class="slideshow" src="rome.jpg" style="width:100%">
+		<img class="slideshow" src="dubai.jpg" style="width:100%">
 	</div>
 	<!-- hobby end -->
 
 
 	
-	<!-- <div id="slideshow" class="w3-content w3-section" style="max-width:500px"> -->
-		<!-- <img class="slideshow" src="india.jpg" style="width:100%"> -->
-		<!-- <img class="slideshow" src="sofia.jpg" style="width:100%"> -->
-		<!-- <img class="slideshow" src="rome.jpg" style="width:100%"> -->
-		<!-- <img class="slideshow" src="dubai.jpg" style="width:100%"> -->
-	<!-- </div> -->
+	
 	
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 	

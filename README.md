@@ -4,7 +4,9 @@ I then had to find another larger image, which is the current background now. Al
 
 I managed to arrange chunks of text where I wanted, except the 'About Me' section which I can't get it to go to the center.
 
-another issue was getting the the sections for the years of university equal height.
+Another issue was getting the the sections for the years of university equal height.
 
-
-
+When creating an slideshow, I chose a carousel effect witchout text. I added text so that people know the name of the places. However, everytime the image changed, the text of that image will move it self at the top of the slideshow.
+Here is an example: 
+![slideshowtext](https://user-images.githubusercontent.com/25661816/33853219-2286728a-deb5-11e7-860d-ae1e9ef5bf51.jpg)
+I solved this problem by adding the text onto the image via photoshop.
