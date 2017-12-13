@@ -92,7 +92,7 @@
 	height: 220px;
 	text-align: right;
 	padding-right: 10px;
-	font-size: 20px;
+	font-size: 15px;
 	font-family: 'Baloo', cursive;
 	background: rgba(96, 137, 204, 1);
 	padding-bottom: 20px;
@@ -312,7 +312,7 @@ html {
 	height: 60%;
 	width:250px;
 	height:250px;
-	
+	border-radius: 10px;
 }	
 	
 	
@@ -349,6 +349,7 @@ html {
 
 }
 @media only screen and (max-width: 1024px) {
-.sidenav html {
+.sidenav{
 	display:none 
+}
 }
