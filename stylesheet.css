@@ -47,6 +47,9 @@
 	color: white;
 }
 
+#profileimg {
+	border-radius: 10px;
+}
 
 #profile {
 	color: white;
@@ -146,6 +149,7 @@
     width: 80%;
     padding: 10px;
 	opacity: 0.7;
+	border-radius: 10px;
 }
 
 .flex-container {
@@ -166,6 +170,7 @@
     width: 80%;
     padding: 10px;
 	opacity: 0.7;
+	border-radius: 10px;
 }
 #hobby {
 	float: center;
