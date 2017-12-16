@@ -27,7 +27,6 @@
 	<!-- sidenav end -->
 	<div style="margin-left:80px;"></div>
 	
-	<div style="padding:20px;margin-top:30px;height:1500px;">	
 	
 	<div>
 		<h1  class="welcome">
@@ -36,11 +35,12 @@
 	</div>	
 	<!-- profile card start -->
 	<div class="card">
-		<img src="FileProfilePicture.jpeg" alt="Neil" style="width:100%">
+		<img id="profileimg" src="FileProfilePicture.jpeg" alt="Neil" style="width:100%">
 		<h2 id="profile">Neil Patel</h2>
 		<p id="profile">Student</p>		
 		<p id="profile">DeMontfort University</p>
-		<div style="margin: 24px 0;">
+		<div 
+			style="margin: 24px 0;">
 		
 		</div>
 		<div>
@@ -68,7 +68,7 @@
 		</ul>
 	</section>	
 	<!-- skill end -->
-
+	
 	<!-- contact start -->
 	<section id="mycontact" class="slider">
 		<ul class="fa-ul">
@@ -92,12 +92,12 @@
 </main>	
 	<!-- about me start -->
 	<br>
-	<section id="aboutme">
+	<section id="aboutme" >
 		<h2 class="about">
 			About Me
 		</h2>			
 			<p id="aboutinfo">
-				A proactive, dedicated and self-motivated student that is currently in 3rd year –
+				A proactive, dedicated and self-motivated student that is currently in 3rd year â€“
 				studying Information and Communication Technology. I have brilliant skills such as preparation and team work, 
 				which was gained from 1st year of university. As a hard working student, I want to gain further knowledge and
 				experience in the Technology field.				
@@ -108,7 +108,6 @@
 	
 	<section>
 		</head>
-		<body>
 			<h2 class="demontfort">DeMontfort University</h2>
 			<div id="map"></div>
 			<script src="javascript/maps.js"></script>
@@ -124,19 +123,19 @@
         <h3 class="life"><i class="fa fa-certificate fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Education</h3>
         <div class="w3-container">
 			<h5><p id="educationinfo">Archbishop of Lanfranc</p></h5>
-			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 – 2013</h5>
+			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2008 â€“ 2013</h5>
 				<p id="educationinfo">GCSEs: Spanish (C), Biology (C), Chemistry (C), Physics (C), Maths (B), English (C)</p>
 			<hr>
         </div>
         <div>
 			<h5><p id="educationinfo">Coulsdon College</p></h5>
-			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 – 2015</h5>
+			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2013 â€“ 2015</h5>
 				<p id="educationinfo">Btec: Engineering (MM), IT (D*)</p>
 			<hr>
         </div>
 		<section>
-			<h5><p id="educationinfo">DeMontfort University</p></h5>
-			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 – 2018</h5>
+				<p id="educationinfo">DeMontfort University</p>
+			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 â€“ 2018</h5>
 			<section class="flex-container">	
 				<section id="yearuni" class="year slider">	
 					<ul class="fa-ul">
@@ -144,16 +143,18 @@
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics and Business Management</li>
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Visual Web Development</li>
 						<li><i class="fa-li fa fa-spinner fa-spin"></i>Information Systems Development</li>
-						<li><i class="fa-li fa fa-spinner fa-spin"></i>Devices and Networks</li>					  
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Devices and Networks</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Introduction to ICT</li>
 					</ul>
 				</section>
 				<section id="yearuni" class="year slider">
 					<ul class="fa-ul">
 						<li><u>Second Year 2:2</u></li>
-						<li><i class="fa-li fa fa-spinner fa-spin"></i>Mathematics and Business Management</li>
-						<li><i class="fa-li fa fa-spinner fa-spin"></i>Visual Web Development</li>
-						<li><i class="fa-li fa fa-spinner fa-spin"></i>Information Systems Development</li>
-						<li><i class="fa-li fa fa-spinner fa-spin"></i>Devices and Networks</li>					  
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Project management & Development</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>IT Service Management</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Database Design	</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Management of ICT</li>
+						<li><i class="fa-li fa fa-spinner fa-spin"></i>Introduction to Research and Ethics</li>
 					</ul>
 				</section>	
 				<section id="yearuni" class="year slider">	
@@ -170,61 +171,76 @@
 			</section>
 		</section>	
 	</div>
+	<br>
 	<!-- education end -->
 	
 	<!-- work start -->
 	<div id="work" class="w3-container w3-card w3-black">
-	<hr>
         <h3 class="life"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Work Experience</h3>
         <div class="w3-container">
-			<h5><p id="workinfo">Community Pharmacy-Day Lewis Pharmacy</p></h5>
+				<p id="workinfo">Community Pharmacy-Day Lewis Pharmacy</p>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>April 2012</h5>
 				<p id="workinfo">I worked in a community pharmacy for 2 weeks and it was great working with other members, it allowed me to gain team-working skills and further improve my communication skills. I checked expiry dates of medication, directed customers to products and assisted in advising them on selection of products. This improved my interaction skills, as it required me to communicate to people of different age groups.</p>
-			<hr>
         </div>
 	</div>
+	<br>
 	<div id="work" class="w3-container w3-card w3-black w3-margin-bottom">
         <h3 class="life"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xlarge w3-text-teal"></i>Employment</h3>
         <div class="w3-container">
-			<h5><p id="workinfo">H & M</p></h5>
+				<p id="workinfo">H & M</p>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>July 2016</h5>
-				<p id="workinfo">At H&M my prime responsibility was to handle delivery and stock and occasionally assist my colleagues on the shop floor, especially during busy hours. As part of my role, my duties will include assisting customers, lending them a hand and advising them on products. Working in retail has helped me further improve my communication skills and the same time it has helped me develop my confidence in approaching customers.</p>
+				<p id="workinfo">At H&M my prime responsibility was to handle delivery and stock and occasionally assist my colleagues on the shop floor, especially during busy hours. As part of my role, my duties will include assisting customers, lending them a hand and advising them on products. Working in retail has helped me further improve my communication skills and the same time it has helped me develop my confidence in approaching customers.
+</p>
 			<hr>
         </div>
         <div class="w3-container">
-			<h5<p id="workinfo">Day Lewis Warehouse</p></h5>
+				<p id="workinfo">Day Lewis Warehouse</p>
 			<h5 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>June 2016</h5>
 				<p id="workinfo">Working for Day Lewis was great as I met people from different countries, this meant that some of the employees had accents. This helped me because it helped me improve my listening skills, as some of the employees struggled to pronounce some words.</p>
-			<hr>
         </div>
     </div>
 	<!-- work end -->
 	
 	<!-- hobby start --> 
 	<div id="hobby">
-		<h1 class="hobbies">Hobbies and Interests</h1>
-		<p>Through out my life I have visited many places displayed in the slideshow.</p>
-		<p>India was an amazing place and went there for my cousins wedding. I stayed there for 3 weeks and travelled many cities. I lived with my uncles and they hired drivers so travelling was really easy. Most of the time I would just explore places with my family and tried delicious food as there would be places to eat everywhere.
-	</div>
-				
+	<h2 class="hobbies">Hobbies and Interests</h2>
+		<p>
+			Through out my life I have visited many places displayed in the slideshow.
+		</p>
+		<p>
+			India was an amazing place and went there for my cousins wedding. I stayed there for 3 weeks and travelled many cities. I lived with my uncles and they hired drivers so travelling was really easy. Most of the time I would just explore places with my family and tried delicious food as there would be places to eat everywhere.
+		</p>
+		<p>
+			Rome was a similar holidays to Sofia, but I found this boring as we did not do any fun activities. I also went with my sister and cousins and we just visited historical places such as, Colosseum and Roman Catholic Church and many more. The reason why I did not enjoy it as much was because the places we had to go was quite far and we had to walk it there, which was really tiring, especially in the heat.
+		</p>
+			
 	<div id="slideshow" class="w3-content w3-section" style="max-width:500px">
-		<img class="slideshow" src="india.jpg" style="width:100%">
-		<img class="slideshow" src="sofia.jpg" style="width:100%">
-		<img class="slideshow" src="rome.jpg" style="width:100%">
-		<img class="slideshow" src="dubai.jpg" style="width:100%">
+		<img class="slideshow" src="india.jpg" alt="India" style="width:100%">
+		<img class="slideshow" src="sofia.jpg" alt="Sofia" style="width:100%">
+		<img class="slideshow" src="rome.jpg" alt="Rome" style="width:100%">
+		<img class="slideshow" src="dubai.jpg" alt="Dubai" style="width:100%">
 	</div>
 	<!-- hobby end -->
+		<p>
+			Sofia was a nice place to visit. I went with my sister and cousins and mainly explored the place. One thing I really enjoyed about the holiday was mountain climbing. The was an exerience as I have never done it before and it was worth it. We started from the bottom and and climbed right to the top, which was not that difficult as we went through a easy route.
+		</p>
+		<p>
+			Dubai was my favourite holiday so far. However, I was really young when I went and can not remember some of the activities. I remember going to the Water Park which felt really nice especially in the heat. I can also remember living in a nice hotel which had an amazing fountain in the lobby and many floors with fancy elevvators.
+		</p>
+	</div>
 
-
 	
 	
 	
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+	<button id="myBtn" title="Go to top">Top</button>
 	
 	<script src="javascript/slideshow.js"></script>
 		<!-- scroll up button start -->
 	<script src="javascript/scrollbutton.js"></script>
 		<!-- scroll up button end -->
+	
+
+	
 	
 </body>
 	

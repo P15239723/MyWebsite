@@ -47,6 +47,9 @@
 	color: white;
 }
 
+#profileimg {
+	border-radius: 10px;
+}
 
 #profile {
 	color: white;
@@ -57,7 +60,6 @@
 .slider {
 	overflow-y: hidden;
 	max-height: 500px; /* approximate max height */
-
 	transition-property: all;
 	transition-duration: 1s;
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
@@ -109,14 +111,13 @@
 }
 
 #aboutme {
-	float: center;
+	clear: both;
 	width: auto;
 	text-align: center;
 	color: white;
 	font-size: 20px;
 	font-family: 'Baloo', cursive;
-	padding-top: 6cm;
-	position: static;
+
 }
 
 .about {
@@ -148,6 +149,7 @@
     width: 80%;
     padding: 10px;
 	opacity: 0.7;
+	border-radius: 10px;
 }
 
 .flex-container {
@@ -168,6 +170,7 @@
     width: 80%;
     padding: 10px;
 	opacity: 0.7;
+	border-radius: 10px;
 }
 #hobby {
 	float: center;
@@ -208,7 +211,7 @@
 
 .year {
 	float: center;
-    width: auto;
+    width: 250px;
     height: 250px;;
     margin: auto;
 	border-radius: 10px;
@@ -351,5 +354,13 @@ html {
 @media only screen and (max-width: 1024px) {
 .sidenav{
 	display:none 
+}
+#myskill {
+	width: 100%;
+	margin-bottom: 1cm;
+}
+#mycontact {
+	width: 100%;
+	margin-bottom: 1cm;
 }
 }
