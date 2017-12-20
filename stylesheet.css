@@ -296,7 +296,7 @@ main {
 
 html {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)
-    ), url("NightLondonBackground.jpg") no-repeat center fixed;
+    ), url("images/nightlondonbackground.jpg") no-repeat center fixed;
 	background-size: cover;
 	}
 	
@@ -317,7 +317,7 @@ html {
 	display: none;
 	position: fixed;
 	bottom: 20px;
-	right: 30px;
+	right: 20px;
 	z-index: 99;
 	border: none;
 	outline: none;
