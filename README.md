@@ -12,3 +12,7 @@ Here is an example:
 I solved this problem by adding the text onto the image via photoshop.
 
 During the html validation, an error came up saying '|' is an illegal character. However, this was part of the link. I solved this by googling a replacement for the illegal character, which was '%7c'.
+
+![user testing](https://user-images.githubusercontent.com/25661816/34214778-5f9f8520-e59b-11e7-90f3-8e390b512018.jpg)
+A friend of mine explored my website and found an issue with the cv. When downloaded, it would not allow the him to open the cv as I did not have it saved in the folder. Therefore, I added a pdf version of my cv and added it in my
+changes folder.
