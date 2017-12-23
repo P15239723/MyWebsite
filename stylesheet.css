@@ -38,6 +38,13 @@
 }
 /* sidenav end */
 
+.fa-linkedin {
+	color: #0077B5;
+}
+.fa-download {
+	color: white;
+}	
+
 .welcome {
 	font-size: 40px;
 	text-align: center;
@@ -356,8 +363,6 @@ html {
 	width: 100%;
 	margin-bottom: 1cm;
 }
-html {
-	
-}
+
 
 }
