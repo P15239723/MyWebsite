@@ -1,363 +1,365 @@
 /* sidenav start */
+
 #mySidenav a {
-    position: absolute;
-    left: -140px;
-    transition: 0.3s;
-    padding: 10px;
-    width: 160px;
-    text-decoration: none;
-    font-size: 15px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-	text-align: left;
+  position: absolute;
+  left: -140px;
+  transition: 0.3s;
+  padding: 10px;
+  width: 160px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  text-align: left;
 }
 
 #mySidenav a:hover {
-    left: 0;
+  left: 0;
 }
 
 #about {
-    top: 20px;
-    background-color: rgba(96, 137, 204, 1);	
+  top: 20px;
+  background-color: rgba(96, 137, 204, 1);
 }
 
 #edu {
-    top: 80px;
-    background-color: black;
+  top: 80px;
+  background-color: black;
 }
 
 #experience {
-    top: 140px;
-    background-color: rgba(96, 137, 204, 1);
+  top: 140px;
+  background-color: rgba(96, 137, 204, 1);
 }
 
 #hobbies {
-    top: 200px;
-    background-color: black;
-	padding-bottom: 20px;
+  top: 200px;
+  background-color: black;
+  padding-bottom: 20px;
 }
+
+
 /* sidenav end */
 
 .welcome {
-	font-size: 40px;
-	text-align: center;
-	font-family: 'Bree Serif', serif;
-	color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
 
 #profileimg {
-	border-radius: 10px;
+  border-radius: 10px;
 }
 
 .profile {
-	color: white;
-	font-family: 'Bree Serif', serif;
+  color: white;
+  font-family: 'Bree Serif', serif;
 }
 
+
 /* effects of divs (skill, contact and year) */
+
 .slider {
-	overflow-y: hidden;
-	max-height: 500px; /* approximate max height */
-	transition-property: all;
-	transition-duration: 1s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  overflow-y: hidden;
+  max-height: 500px;
+  /* approximate max height */
+  transition-property: all;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
 #myskill {
-	float: left;
-	width: 250px;
-	height: 230px;
-	text-align: left;
-	padding-left: 10px;
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	background: rgba(96, 137, 204, 1);
-	padding-bottom: 20px;
-	color: white;
-	border-radius: 10px;
+  float: left;
+  width: 250px;
+  height: 230px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  background: rgba(96, 137, 204, 1);
+  padding-bottom: 20px;
+  color: white;
+  border-radius: 10px;
 }
 
 #myskill:hover {
-  background: rgba(96, 137, 204, 0.7); 
+  background: rgba(96, 137, 204, 0.7);
 }
 
-.skill	{
-	font-family: 'Bree Serif', serif;
+.skill {
+  font-family: 'Bree Serif', serif;
 }
 
 #mycontact {
-	float: right;
-	width: 250px;
-	height: 230px;
-	text-align: right;
-	padding-right: 10px;
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	background: rgba(96, 137, 204, 1);
-	padding-bottom: 20px;
-	color: white;
-	border-radius: 10px;
+  float: right;
+  width: 250px;
+  height: 230px;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  background: rgba(96, 137, 204, 1);
+  padding-bottom: 20px;
+  color: white;
+  border-radius: 10px;
 }
 
 #mycontact:hover {
-	background: rgba(96, 137, 204, 0.7); 
-}		
+  background: rgba(96, 137, 204, 0.7);
+}
 
-.contact{
-	font-family: 'Bree Serif', serif;
+.contact {
+  font-family: 'Bree Serif', serif;
 }
 
 #aboutme {
-	clear: both;
-	width: 80%;
-	text-align: center;
-	color: white;
-	font-size: 20px;
-	margin:0 auto;
+  clear: both;
+  width: 80%;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  margin: 0 auto;
 }
 
 .about {
-	font-family: 'Bree Serif', serif;
+  font-family: 'Bree Serif', serif;
 }
+
 #map {
-    height: 400px;
-    width: 100%;
-	border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  border-radius: 10px;
 }
- 
+
 .demontfort {
-	font-family: 'Bree Serif', serif;
-	text-align: center;
-	color: white;
-} 
+  font-family: 'Bree Serif', serif;
+  text-align: center;
+  color: white;
+}
 
 .life {
-	font-family: 'Bree Serif', serif;
+  font-family: 'Bree Serif', serif;
 }
- 
+
 #education {
-	text-align: center;
-	font-size: 20px;
-	font-family: 'Bree Serif', serif;
-	color: white;
-	margin: auto;
-    width: 80%;
-    padding: 10px;
-	opacity: 0.7;
-	border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  color: white;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: 10px;
 }
 
 .flex-container {
-	display: flex;
-	padding-top: 0.5cm;
-	width: 100%;
-	
+  display: flex;
+  padding-top: 0.5cm;
+  width: 100%;
 }
 
 .work {
-	padding-top: 10px;
-	text-align: center;
-	color: white;
-	font-size: 20px;
-	font-family: 'Bree Serif', serif;
-	padding-left: 10px; 
-	margin: auto;
-    width: 80%;
-    padding: 10px;
-	opacity: 0.7;
-	border-radius: 10px;
+  padding-top: 10px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-family: 'Bree Serif', serif;
+  padding-left: 10px;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  opacity: 0.7;
+  border-radius: 10px;
 }
+
 #hobby {
-	width: 80%;
-	text-align: center;
-	color: white;
-	padding: 10px;
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	margin:0 auto;
+  width: 80%;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  margin: 0 auto;
 }
 
 .hobbies {
-	font-family: 'Bree Serif', serif;
+  font-family: 'Bree Serif', serif;
 }
 
 .skillinfo {
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	color: white;
-} 
-.contactinfo {
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	color: white;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
+
+.contactinfo {
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  color: white;
+}
+
 #aboutinfo {
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	color: white;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
 
 .educationinfo {
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	color: white;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
 
 .year {
-    width: 250px;
-    height: 250px;;
-    margin: auto;
-	border-radius: 10px;
-	clear: left;
+  width: 250px;
+  height: 250px;
+  ;
+  margin: auto;
+  border-radius: 10px;
+  clear: left;
 }
 
-
 .yearuni {
-	font-size: 15px;
-	text-align: left;
-	background: rgba(96, 137, 204, 1);
-	display: inline-block;
-	
+  font-size: 15px;
+  text-align: left;
+  background: rgba(96, 137, 204, 1);
+  display: inline-block;
 }
 
 .yearuni:hover {
-	background: rgba(96, 137, 204, 0.7);
-}		
+  background: rgba(96, 137, 204, 0.7);
+}
 
 .flex-container {
-	display: flex;
-	flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .workinfo {
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	color: white;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
 
 .slideshow {
-	display:block;
-	border-radius: 10px;
+  display: block;
+  border-radius: 10px;
 }
 
 #hobbyinfo {
-	font-size: 15px;
-	font-family: 'Bree Serif', serif;
-	color: white;
+  font-size: 15px;
+  font-family: 'Bree Serif', serif;
+  color: white;
 }
-
 
 
 /* profile card start */
+
 .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
-	max-width: 300px;
-	margin: auto;
-	text-align: center;
-	font-family: arial;
-	border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  border-radius: 10px;
 }
 
 .title {
-	color: grey;
-	font-size: 18px;
+  color: grey;
+  font-size: 18px;
 }
 
 button {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 8px;
-	color: white;
-	background-color: #000;
-	text-align: center;
-	cursor: pointer;
-	width: 100%;
-	font-size: 18px;
-	border-radius: 10px;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
 a {
-	text-decoration: none;
-	font-size: 22px;
-	color: black;
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
 }
 
-button:hover, a:hover {
-	opacity: 0.7;
+button:hover,
+a:hover {
+  opacity: 0.7;
 }
+
 
 /* profile card end */
 
 main {
-    max-width: 100%;
-	
+  max-width: 100%;
 }
 
 html {
-	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)
-    ), url("images/nightlondonbackground.jpg") no-repeat center fixed;
-	background-size: cover;
-	}
-	
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)), url("images/nightlondonbackground.jpg") no-repeat center fixed;
+  background-size: cover;
+}
+
 #profilepic {
-	display: block;
-	margin: auto;
-	width: 100%;
-	border-radius: 50%;
-	height: 60%;
-	width:250px;
-	height:250px;
-	border-radius: 10px;
-}	
-	
-	
+  display: block;
+  margin: auto;
+  width: 100%;
+  border-radius: 50%;
+  height: 60%;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
+
+
 /* scroll up button start */
+
 #myBtn {
-	display: none;
-	position: fixed;
-	bottom: 20px;
-	right: 20px;
-	z-index: 99;
-	border: none;
-	outline: none;
-	background-color: red;
-	color: white;
-	cursor: pointer;
-	padding: 15px;
-	border-radius: 10px;
-	width: auto;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+  width: auto;
 }
 
 #myBtn:hover {
   background-color: #555;
-}	
+}
+
+
 /* scroll up button end	 */
-	
 
-
-/* sidenav start */
-
-/* sidenav end */ 
-	
 @media screen and (min-width: 500px) {
-	/* override mobile styles for bigger screens */
-
+  /* override mobile styles for bigger screens */
 }
+
 @media only screen and (max-width: 1024px) {
-.sidenav{
-	display:none 
-}
-#myskill {
-	width: 100%;
-	margin-bottom: 1cm;
-}
-#mycontact {
-	width: 100%;
-	margin-bottom: 1cm;
-}
-html {
-	
-}
-
+  .sidenav {
+    display: none
+  }
+  #myskill {
+    width: 100%;
+    margin-bottom: 1cm;
+  }
+  #mycontact {
+    width: 100%;
+    margin-bottom: 1cm;
+  }
+  html {}
 }
