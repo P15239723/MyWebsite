@@ -25,5 +25,12 @@ https://learn.shayhowe.com/advanced-html-css/
 https://codepen.io/
 
 These are the sketches for my website. It will follow on in the second page as it could not fit on the paper:
+Desktop:
 ![sketch1](https://user-images.githubusercontent.com/25661816/34439334-07f55906-eca5-11e7-802b-cc50c255aef0.jpg)
 ![sketch2](https://user-images.githubusercontent.com/25661816/34439350-29d8d1b0-eca5-11e7-9399-229015949d11.jpg)
+Tablet:
+![sketch3](https://user-images.githubusercontent.com/25661816/34439943-90450b68-eca9-11e7-9306-66bb9a7af7f9.jpg)
+![sketch4](https://user-images.githubusercontent.com/25661816/34439945-9b3d5926-eca9-11e7-8d76-6516a1d72ef4.jpg)
+Mobile:
+![sketch5](https://user-images.githubusercontent.com/25661816/34439955-b4264574-eca9-11e7-9830-ce634e85815d.jpg)
+![sketch6](https://user-images.githubusercontent.com/25661816/34439960-c3f8dd4a-eca9-11e7-9d28-796f92fe3c04.jpg)
